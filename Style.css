@@ -20,6 +20,10 @@
     scroll-behavior: smooth;
 }
 
+html{
+    scroll-padding-top: 80px;
+}
+
 body{
     background-color: var(--extra-light);
     margin: 0;
@@ -500,7 +504,7 @@ nav .logo label{
 }
 
 
-@media screen and (max-width:952px){
+@media screen and (max-width:1024px){
     nav .logo{
         font-size:25px ;
         padding-left: 30px;
@@ -511,7 +515,7 @@ nav .logo label{
     }
 }
 
-@media screen and (max-width: 725px){
+@media screen and (max-width: 768px){
     nav{
         flex-direction: row-reverse;
     }
@@ -562,6 +566,13 @@ nav .logo label{
 
     .image{
         grid-area: 1/1/2/2;
+    }
+    .image img{
+        width: min(350px,120%);
+        height: 380px;
+        border-radius: 50%;
+        
+        
     }
 
     .action-btns{
