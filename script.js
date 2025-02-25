@@ -8,17 +8,6 @@ const viewMoreBtn = document.getElementById('view-more');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 document.getElementById('logo').addEventListener('click', () => {
     window.location.href = 'Index.html';
 });
